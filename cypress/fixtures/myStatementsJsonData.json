@@ -1,0 +1,14 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "statements_url":"https://consumer.staging.geotoll.com/myaccount/statements",
+    "title":"GeoToll Account Overview",
+
+    "pagination_val_10":" 10 ",
+    "pagination_val_25":" 25 ",
+    "pagination_val_50":" 50 ",
+    "pagination_val_100":" 100 "
+}

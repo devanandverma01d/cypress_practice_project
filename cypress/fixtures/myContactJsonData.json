@@ -1,0 +1,29 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "contact_url":"https://consumer.staging.geotoll.com/myaccount/contacts",
+    "title":"GeoToll Account Overview",
+    "address1":"20 Cooper Square ",
+    "address2":"20 Cooper Square, New York, NY 10003, USA",
+    "city":"New York City",
+    "zip":"224143",
+
+    "c_id":"Contact Id ",
+    "f_name":"First Name ",
+    "l_name":"Last Name ",
+    "email":"Email ",
+    "role":"Role ",
+    "pin":"PIN ",
+    "p_phone":"Primary Phone ",
+    "status":"Status ",
+    "d_created":"Date Created ",
+    "action":"Actions ",
+
+    "pagination_10":" 10 ",
+    "pagination_25":" 25 ",
+    "pagination_50":" 50 ",
+    "pagination_100":" 100 "
+}

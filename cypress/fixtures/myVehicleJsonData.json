@@ -1,0 +1,20 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "vehicle_route":"https://consumer.staging.geotoll.com/myaccount/vehicles",
+    "title":"GeoToll Account Overview",
+    "vehiclesId":"998100145",
+    "vehiclesPagination":"",
+    "qa_dodge":"QA_DODGE",
+    "geotoll":"GEOTOLL",
+    "available":" Available",
+    "pending":" Pending",
+    "smartapp":"Smart Mobile App (GPS based)",
+    "pagination_0":" 10 ",
+    "pagination_1":" 25 ",
+    "pagination_2":" 50 ",
+    "pagination_3":" 100 "
+}

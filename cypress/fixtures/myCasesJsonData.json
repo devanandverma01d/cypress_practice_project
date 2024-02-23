@@ -1,0 +1,23 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "my_cases_url":"https://consumer.staging.geotoll.com/myaccount/cases",
+    "title":"GeoToll Account Overview",
+    "caseId":"Case Id ",
+    "issueType":"Issue Type ",
+    "subCategory":"Sub-category ",
+    "status":"Status ",
+    "dateCreated":"Date Created ",
+    "lastUpdated":"Last Updated ",
+    "actions":"Actions ",
+
+    "pagination_10":" 10 ",
+    "pagination_25":" 25 ",
+    "pagination_50":" 50 ",
+    "pagination_100":" 100 "
+
+
+}

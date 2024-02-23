@@ -1,0 +1,100 @@
+import {webLocatorsMyAccount} from '../locators/myAccountsLocators'
+export class MyAccount{
+
+     // All methods and actions are here.
+    verifyQAFirstExistence(){
+        cy.get(webLocatorsMyAccount.qa_first_label).should('exist')
+    }
+    verifyQAFirstClickable(){
+        cy.get(webLocatorsMyAccount.qa_first_label).click()
+    }
+    verifyQAFirstClickableAndLogout(){
+        cy.get(webLocatorsMyAccount.qa_first_label).click()
+        cy.get(webLocatorsMyAccount.logout).click()
+    }
+    verifyHamburgerMenu(){
+        cy.get(webLocatorsMyAccount.hamburger_menu).click({ force: true });
+    }
+    verifyAllMenuOfSidebar(){
+        cy.get(webLocatorsMyAccount.home_menu).should('exist')
+        cy.get(webLocatorsMyAccount.my_vehicles_menu).should('exist')
+        cy.get(webLocatorsMyAccount.my_contacts_menu).should('exist')
+        cy.get(webLocatorsMyAccount.my_statements_menu).should('exist')
+        cy.get(webLocatorsMyAccount.my_ruc_transactions_menu).should('exist')
+        cy.get(webLocatorsMyAccount.my_cases_menu).should('exist')
+        cy.get(webLocatorsMyAccount.customer_support_menu).should('exist')
+        cy.get(webLocatorsMyAccount.manage_profile_menu).should('exist')
+        cy.get(webLocatorsMyAccount.logout_menu).should('exist')
+    }
+    verifyHomeMenu(){
+        cy.get(webLocatorsMyAccount.home_menu).click()
+        cy.customWait()
+    }
+    verifyMyVehicleMenu(){
+        cy.get(webLocatorsMyAccount.my_vehicles_menu).click()
+        cy.customWait()
+    }
+    verifyMyContactsMenu(){
+        cy.get(webLocatorsMyAccount.my_contacts_menu).click()
+        cy.customWait()
+    }
+    verifyMyStatements(){
+        cy.get(webLocatorsMyAccount.my_statements_menu).click()
+    }
+    verifyMyRUCTransactionsMenu(){
+        cy.get(webLocatorsMyAccount.my_ruc_transactions_menu).click()
+    }
+    verifyMyCases(){
+        cy.get(webLocatorsMyAccount.my_cases_menu).click()
+    }
+    verifyCustomerSupportMenu(){
+        cy.get(webLocatorsMyAccount.customer_support_menu).click()
+    }
+    verifyManageProfileMenu(){
+        cy.get(webLocatorsMyAccount.manage_profile_menu).click()
+    }
+    verifyLogoutMenu(){
+        cy.get(webLocatorsMyAccount.logout_menu).click()
+    }
+    
+    
+
+    // Setting Panel- Methods and Actions
+    verifySettingIcon(){
+        cy.get(webLocatorsMyAccount.setting_icon).should('exist')
+    }
+    verifySettingIconClickable(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+    }
+    verifyDarkThemeLayout(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.dark_theme_layout).click()
+    }
+    verifyLightThemeLayout(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.light_theme_layout).click()
+    }
+    verifyDarkThemeSidebar(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.dark_theme_sidebar).click()
+    }
+    verifyLightThemeSidebar(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.light_theme_sidebar).click()
+    }
+    verifyColorTheme(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.theme_color_purple).click()
+        cy.customWait()
+        cy.get(webLocatorsMyAccount.theme_color_white).click()
+    }
+    verifyRTLLayout(){
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.get(webLocatorsMyAccount.rtl_layout_on).click({force:true})
+        cy.customWait()
+        cy.get(webLocatorsMyAccount.rtl_layout_off).click()
+        cy.customWait()
+        cy.get(webLocatorsMyAccount.setting_icon).click()
+        cy.customWait()
+    }
+}

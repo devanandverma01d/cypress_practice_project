@@ -1,0 +1,12 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "manage_profile_url":"https://consumer.staging.geotoll.com/myaccount/profile",
+        "title":"GeoToll Account Overview",
+        "cPass":"QA2024@ab",
+        "newPass":"Test@12345",
+        "re_newPass":"Test@12345"
+}

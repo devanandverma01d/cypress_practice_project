@@ -1,0 +1,25 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "my_account_url":"https://consumer.staging.geotoll.com/myaccount",
+    "title":"GeoToll Consumer Portal",
+    "email":"geotoll.qa.smartapp@gmail.com",
+    "invalid_email":"deotoll.qa.smartapp@gmail.com",
+    "password":"QA2024@ab",
+    "invalid_password":"A2024@ab",
+
+    "email_for_forget_password":"devanandverma01d@gmail.com",
+
+    "invite_code_email":"geotoll.qa.smartapp@gmail.com",
+    "invite_code_password":"QA2024@ab",
+
+    "footer_title":"Consumer Agreements",
+    "terms_condition":"Terms and Conditions",
+    "privacy_policy":"Privacy Policy",
+    "vol_agreement":"Volunteer Agreement",
+
+    "first_name":"test1",
+    "last_name":"test2",
+    "user_email":"test@gmail.com",
+    "phone":"9074528630",
+    "question":"Is this working right now"
+}

@@ -1,0 +1,12 @@
+{
+
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "customer_support_url":"https://consumer.staging.geotoll.com/myaccount/contact-us",
+    "title":"GeoToll Account Overview",
+    "question":"This is QA message for testing..........",
+    "message":"This reply is only for testing.........."
+}

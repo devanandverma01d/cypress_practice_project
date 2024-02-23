@@ -1,0 +1,17 @@
+{
+  "name": "new_pom_text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}

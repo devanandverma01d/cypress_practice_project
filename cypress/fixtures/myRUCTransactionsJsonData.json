@@ -1,0 +1,23 @@
+{
+    "url":"https://consumer.staging.geotoll.com/home/signin",
+    "login":{
+        "email":"geotoll.qa.smartapp@gmail.com",
+        "password":"QA2024@ab"
+    },
+    "ruc_transaction_url":"https://consumer.staging.geotoll.com/myaccount/ruc-transactions",
+    "title":"GeoToll Account Overview",
+    "id":"Id ",
+    "mro_id":"MRO Id ",
+    "txz_type":"Transaction Type ",
+    "mileage":"Mileage (mi) ",
+    "ruc_charge":"RUC Charge ",
+    "fuel_tax_cr":"Fuel Tax ",
+    "ruc_balance":"RUC - Fuel Tax Difference ",
+    "rule_name":"Rule Name ",
+    "date":"Date ",
+
+    "pagination_10":" 10 ",
+    "pagination_25":" 10 ",
+    "pagination_50":" 10 ",
+    "pagination_100":" 10 "
+}
